@@ -14,13 +14,13 @@
     "require": {
         "php": ">= 8.2",
         "guzzlehttp/guzzle": "^7.0",
-        "illuminate/notifications": "^10.0|^11.0",
-        "illuminate/support": "^10.0|^11.0",
-        "kreait/laravel-firebase": "^5.7"
+        "illuminate/notifications": "^v9.52.16",
+        "illuminate/support": "^v9.52.16",
+        "kreait/laravel-firebase": "^4.2.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.5.1",
-        "phpunit/phpunit": "^10.0"
+        "phpunit/phpunit": "^9.6.21"
     },
     "autoload": {
         "psr-4": {
