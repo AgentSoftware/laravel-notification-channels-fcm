@@ -43,7 +43,7 @@ class FcmChannel
 
         return Collection::make($tokens)
             ->chunk(self::TOKENS_PER_REQUEST)
-            ->map(fn ($tokens) => ($fcmMessage->client ?? $this->client)->send($fcmMessage, $tokens->all()))
+            ->map(fn ($tokens) => ($fcmMessage->client ?? $this->client)->sendAll($fcmMessage, $tokens->all()))
             ->map(fn (MulticastSendReport $report) => $this->checkReportForFailures($notifiable, $notification, $report));
     }
 
