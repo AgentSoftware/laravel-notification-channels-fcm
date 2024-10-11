@@ -49,7 +49,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git@github.com:lukeskelding/laravel-firebase.git"
+            "url": "git@github.com:AgentSoftware/laravel-firebase.git"
         }
     ]
 }
